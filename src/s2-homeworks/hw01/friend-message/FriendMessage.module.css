@@ -18,8 +18,8 @@
 .friendText {
     max-width: 60%;
     padding: 8px 20px;
-    margin: 0 50px 20px 0;
-    border-radius: 10px;
+    margin: 0 0 20px 20px;
+    border-radius: 5px 5px 5px 0;
     background: #e5efef;
     position: relative;
 }
@@ -27,11 +27,11 @@
 .friendText:after {
     content: "";
     position: absolute;
-    left: -10px;
-    top: 10px;
-    border-width: 33px 10px 9px 7px;
-    border-style: solid;
-    border-color: transparent  transparent  #e5efef transparent;
+    width: 15px;
+    height: 15px;
+    left: -15px;
+    bottom: 0;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, #e5efef 0);
 }
 
 .friendName {
@@ -45,6 +45,8 @@
     font-weight: 400;
     font-size: 16px;
     color: #000000;
+    white-space: normal;
+    max-width: 400px
 }
 
 .friendTime {
