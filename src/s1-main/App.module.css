@@ -11,8 +11,7 @@
 .hw {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    margin-top: 130px;
+    margin-top: 50px;
     width: 100vw;
     height: auto;
     border-color: #983a3a;
