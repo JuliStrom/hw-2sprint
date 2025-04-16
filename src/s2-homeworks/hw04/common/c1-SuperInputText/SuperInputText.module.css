@@ -16,6 +16,7 @@
 }
 
 .superInput {
+    border: 2px solid black;
 }
 
 .errorInput {
@@ -23,6 +24,7 @@
 }
 
 .errorInput:focus {
+    border: 2px solid red;
 }
 
 .error {
