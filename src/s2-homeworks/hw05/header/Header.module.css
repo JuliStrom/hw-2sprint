@@ -2,6 +2,13 @@
 }
 
 .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    background: #dcd4d4;
 }
 
 .header h1 {
