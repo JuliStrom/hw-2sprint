@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
 import SuperEditableSpan from './common/c4-SuperEditableSpan/SuperEditableSpan'
-import { restoreState, saveState } from './localStorage/localStorage'
+import {restoreState, saveState} from './localStorage/localStorage'
 import s2 from '../../s1-main/App.module.css'
 import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
 import s from './HW6.module.css'
@@ -19,13 +19,16 @@ const HW6 = () => {
     }
     const restore = () => {
         // делают студенты
-
+        let value = localStorage.getItem('hw6-editable-span-value')
+        if (value) {
+            setValue(JSON.parse(value))
+        }
     }
 
     return (
         <div id={'hw6'}>
             <div className={s2.hwTitle}>Homework #6</div>
-
+            <hr/>
             {/*демонстрация возможностей компоненты:*/}
             <div className={s2.hw}>
                 <div className={s.editableSpanContainer}>
@@ -53,6 +56,7 @@ const HW6 = () => {
                     </SuperButton>
                 </div>
             </div>
+            <hr/>
         </div>
     )
 }

@@ -1,5 +1,7 @@
 .buttonsContainer {
+    height: 60vh;
 }
 
 .editableSpanContainer {
+    margin: 30px 10px;
 }

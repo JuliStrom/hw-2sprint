@@ -4,11 +4,13 @@
     width: 130px;
     height: 30px;
     background: #06c;
+    margin-right: 15px;
 }
 
 .disabled {
     background: #004d99;
     opacity: 0.5;
+
 }
 
 .secondary {
@@ -18,10 +20,12 @@
     width: 176px;
     height: 30px;
     background: #e5f0fa;
+    color: #0066CC;
 }
 
 .default {
     background: #06c;
+    color: #fff;
 }
 
 .red {
