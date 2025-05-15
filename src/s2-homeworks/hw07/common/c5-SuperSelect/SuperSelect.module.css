@@ -1,9 +1,15 @@
 .select {
+    height: 25px;
+    width: 130px;
+
+    border: 1px solid rgba(126, 131, 135, 0.82);
 }
 
 .select:focus {
+    border: 2px solid rgba(126, 131, 135);
 }
 
 
 .option:hover {
+    border: 1px solid rgb(0, 0, 0);
 }

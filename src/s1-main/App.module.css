@@ -1,7 +1,7 @@
 .App {
 
     width: 100vw;
-
+    font-family: "Montserrat", sans-serif;
     background: #fff;
     display: flex;
     flex-wrap: wrap;
@@ -21,7 +21,7 @@
 
 .hwTitle {
     margin-left: 70px;
-    font-family: "Montserrat", sans-serif;
+
     font-weight: 600;
     font-size: 22px;
     color: #000;
