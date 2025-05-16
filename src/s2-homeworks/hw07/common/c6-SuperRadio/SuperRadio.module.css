@@ -1,11 +1,16 @@
 .radio {
+    -webkit-appearance: none; /* Отключаем стандартный стиль в WebKit */
+    -moz-appearance: none;    /* Отключаем стандартный стиль в Firefox */
+    appearance: none;         /* Современный способ отключения */
     width: 20px;
     height: 20px;
     border-radius: 50%;
     border: 2px solid #000000;
     position: relative;
     cursor: pointer;
-
+    outline: none;           /* Убираем стандартную обводку фокуса */
+    background: transparent; /* Прозрачный фон */
+    margin: 0;               /* Убираем стандартные отступы */
 }
 
 .radio::before {
@@ -14,15 +19,15 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 15px;
-    height: 15px;
+    width: 10px;            /* Уменьшаем размер внутреннего круга */
+    height: 10px;
     border-radius: 50%;
     background: #000000;
-    opacity: 0; /* По умолчанию скрыт */
+    opacity: 0;
     transition: opacity 0.2s;
 }
 
-.radio:checked:before {
+.radio:checked::before {    /* Исправлен селектор - добавили :: */
     opacity: 1;
 }
 
