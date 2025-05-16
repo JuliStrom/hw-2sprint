@@ -1,23 +1,39 @@
 .item {
+    border-bottom: 1px solid rgba(126, 131, 135);
 }
 
 .item:last-of-type {
+    border-bottom: 1px solid #674d4d;
 }
 
 .users {
+    width: 600px;
 }
 
 .buttonsContainer {
+    padding: 20px;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 30vh;
 }
 
 .thead {
+    background-color: grey;
+    border-bottom: 1px solid rgba(126, 131, 135, 0.82);
 }
 
 .nameCol {
+    padding: 10px;
+    height: 40px;
+    border-bottom: 1px solid rgba(126, 131, 135, 0.82);
 }
 
 .ageCol {
+    padding: 10px;
+    height: 40px;
+    border-bottom: 1px solid rgba(126, 131, 135, 0.82);
 }
