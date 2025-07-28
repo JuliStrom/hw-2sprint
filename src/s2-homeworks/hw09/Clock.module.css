@@ -1,14 +1,29 @@
 .buttonsContainer {
+    padding-top: 10px;
 }
 
 .clock {
+    margin-top: 50px;
 }
 
 .watch {
+font-family: Montserrat;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0;
+color: #000000;
 }
 
 .watch strong {
+font-weight: 600;
 }
 
 .more {
+ font-family: Montserrat;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0;
+color: #0000008c;
 }
